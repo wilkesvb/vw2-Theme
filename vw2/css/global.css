@@ -381,9 +381,9 @@ article {
       font-size: 2em; } }
   @media (max-width: 450px) {
     article {
+      font-size: .8em;
       padding: 20px 15px 5px; }
       article h1 {
-        font-size: 1.6em;
         margin-bottom: 5px;
         margin-top: 5px; }
       article p {
@@ -492,11 +492,7 @@ article {
   font-size: 2em; }
 @media (max-width: 450px) {
   .blog-post {
-    font-size: .8em; }
-    .blog-post h1 {
-      font-size: 2.5em; }
-    .blog-post h2 {
-      font-size: 1.8em; } }
+    font-size: .8em; } }
 .blog-post ul, .blog-post ol {
   margin: 0 0 20px; }
 .blog-post ul, .blog-post ol ul, .blog-post ul ul {
