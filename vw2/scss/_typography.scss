@@ -172,7 +172,12 @@ article {
     line-height: 1.7em;
   }
 
-  h1, h2 {
+  h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+
+  h2 {
     font-size: 2em;
     margin-bottom: 10px;
   }
@@ -190,13 +195,13 @@ article {
   -moz-transition:all .2s linear; 
   -webkit-transition:all .2s linear;
   @include breakpoint(mama-bear) {
-    h1, h2 {
+    h1 {
       font-size: 2em;
     }
   }
   @include breakpoint(baby-bear) {
     padding: 20px 15px 5px;
-    h1, h2 {
+    h1 {
       font-size: 1.6em;
       margin-bottom: 5px;
       margin-top: 5px;

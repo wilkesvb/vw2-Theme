@@ -363,7 +363,10 @@ article {
     font-size: 1em;
     margin-top: 30px;
     line-height: 1.7em; }
-  article h1, article h2 {
+  article h1 {
+    font-size: 3em;
+    margin-bottom: 10px; }
+  article h2 {
     font-size: 2em;
     margin-bottom: 10px; }
   article time {
@@ -374,12 +377,12 @@ article {
     letter-spacing: 5px;
     opacity: .4; }
   @media (max-width: 734px) {
-    article h1, article h2 {
+    article h1 {
       font-size: 2em; } }
   @media (max-width: 450px) {
     article {
       padding: 20px 15px 5px; }
-      article h1, article h2 {
+      article h1 {
         font-size: 1.6em;
         margin-bottom: 5px;
         margin-top: 5px; }
@@ -465,13 +468,17 @@ article {
 .blog-post img {
   height: auto !important;
   width: 100%; }
-.blog-post h1, .blog-post h2 {
+.blog-post h1 {
   font-size: 3em; }
+.blog-post h2 {
+  font-size: 2em; }
 @media (max-width: 450px) {
   .blog-post {
     font-size: .8em; }
-    .blog-post h1, .blog-post h2 {
-      font-size: 2.5em; } }
+    .blog-post h1 {
+      font-size: 2.5em; }
+    .blog-post h2 {
+      font-size: 1.8em; } }
 .blog-post ul, .blog-post ol {
   margin: 0 0 20px; }
 .blog-post ul, .blog-post ol ul, .blog-post ul ul {
