@@ -8,7 +8,7 @@
   <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
   <!--[if !IE 7]>
 	<style type="text/css">
-		#wrap {display:table;height:100%}
+		.wrap {display:table;height:100%}
 	</style>
   <![endif]-->
   <?php wp_head(); ?> 
