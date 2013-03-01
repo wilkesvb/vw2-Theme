@@ -180,6 +180,7 @@ article {
   h2 {
     font-size: 2em;
     margin-bottom: 10px;
+    margin-top: 3px;
   }
   time {
     font-family: Trebuchet MS, Helvetica, Arial;
@@ -207,8 +208,9 @@ article {
       margin-top: 5px;
     }
     h2 {
-      margin-top: 0px;
       margin-bottom: 5px;
+      margin-top: -5px;
+
     }
     p { 
       margin-top: 15px;
@@ -235,7 +237,6 @@ article {
   font-family: 'fontello';
   font-style: normal;
   font-weight: normal;
-  font-size: 5.5em;
   color: $darkGray;
   speak: none;
   display: inline-block;

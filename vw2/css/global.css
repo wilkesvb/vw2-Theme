@@ -368,7 +368,8 @@ article {
     margin-bottom: 10px; }
   article h2 {
     font-size: 2em;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    margin-top: 3px; }
   article time {
     font-family: Trebuchet MS, Helvetica, Arial;
     font-size: 1em;
@@ -387,8 +388,8 @@ article {
         margin-bottom: 5px;
         margin-top: 5px; }
       article h2 {
-        margin-top: 0px;
-        margin-bottom: 5px; }
+        margin-bottom: 5px;
+        margin-top: -5px; }
       article p {
         margin-top: 15px; } }
 
@@ -412,7 +413,6 @@ article {
   font-family: 'fontello';
   font-style: normal;
   font-weight: normal;
-  font-size: 5.5em;
   color: #4a4a4a;
   speak: none;
   display: inline-block;
@@ -491,7 +491,7 @@ article {
   width: 100%; }
 .blog-post h1 {
   font-size: 3em;
-  margin-top: 0px; }
+  margin-top: 6px; }
 .blog-post h2 {
   font-size: 2em; }
 @media (max-width: 450px) {
@@ -509,7 +509,6 @@ article {
   color: #5888ea; }
   .blog-post a:hover {
     color: #9cb8f3; }
-
 .blog-post p:nth-of-type(1) {
   font-weight: bold;
   font-size: 1.2em; }
@@ -665,15 +664,18 @@ pre[class*="language-"] {
 ::selection {
   background: #5888ea; }
 
-.archives h1 {
-  margin-top: 0px;
-  font-size: 3em; }
-.archives h2 {
-  font-size: 1.5em;
-  margin-top: 0; }
-@media (max-width: 450px) {
-  .archives {
-    font-size: .7em; } }
+.archives {
+  padding-top: 15px;
+  padding-bottom: 5px; }
+  .archives h1 {
+    font-size: 2em; }
+  .archives h2 {
+    font-size: 1.5em; }
+  @media (max-width: 450px) {
+    .archives {
+      font-size: .8em; } }
+  .archives h1 {
+    margin-top: 0px; }
 
 html, body {
   height: 100%; }
