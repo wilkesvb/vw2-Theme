@@ -11,7 +11,7 @@
 	</style>
   <![endif]-->
   <!--[if IE]>
-    <link rel="stylesheet" type="text/css" href="../css/ie8-and-up.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/ie-and-up.css" media="screen" type="text/css" />
   <![endif]-->
   <?php wp_head(); ?> 
   
