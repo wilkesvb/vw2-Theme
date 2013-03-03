@@ -10,14 +10,17 @@
 		.wrap {display:table;height:100%}
 	</style>
   <![endif]-->  
-    <?php wp_head(); ?>
+  <!--[if IE]>
+    <link rel="stylesheet" type="text/css" href="../css/ie8-and-up.css" />
+  <![endif]-->
+  <?php wp_head(); ?>
 
 </head>
 
-<body onload="prettyPrint()" >
+<body onload="prettyPrint()">
 
   <div class="bar"></div>
 
-  <div class="page-wrap"
+  <div class="page-wrap">
 
   	<div class="main"> 

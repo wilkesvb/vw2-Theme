@@ -1,7 +1,6 @@
 <!Doctype html>
 <html>
 <head>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
   <title>Vincent Wilkes | Head Music</title>
@@ -10,6 +9,9 @@
 	<style type="text/css">
 		.wrap {display:table;height:100%}
 	</style>
+  <![endif]-->
+  <!--[if IE]>
+    <link rel="stylesheet" type="text/css" href="../css/ie8-and-up.css" />
   <![endif]-->
   <?php wp_head(); ?> 
   
