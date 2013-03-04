@@ -6,12 +6,12 @@
         "home"
       ],
       "code": 8962,
-      "from": 8962,
-      "uid": "w3nzesrlbezu6f30q7ytyq919p6gdlb6",
+      "uid": "513ac180ff85bd275f2b736720cbbf5e",
       "css": "home",
       "orig_css": "home",
       "orig_code": 8962,
-      "src": "typicons"
+      "src": "entypo",
+      "from": 8962
     },
     {
       "search": [
@@ -27,32 +27,31 @@
     },
     {
       "search": [
-        "facebook"
+        "twitter",
+        "social",
+        "logo"
       ],
-      "code": 62208,
-      "meta": {
-        "homepage": "http://www.facebook.com/brandpermissions/logos.php",
-        "author": "Facebook"
-      },
-      "uid": "240979dd9fcf2e46250e66792edb8092",
-      "file": "facebook",
-      "css": "facebook",
-      "orig_css": "facebook",
-      "orig_code": 62208,
-      "src": "brandico",
-      "from": 62208
+      "code": 62217,
+      "uid": "d090355c31f497b61d676416c1fd39fb",
+      "css": "twitter",
+      "orig_css": "twitter",
+      "orig_code": 62217,
+      "src": "entypo",
+      "from": 62217
     },
     {
       "search": [
-        "twitter"
+        "facebook",
+        "social",
+        "logo"
       ],
-      "code": 62211,
-      "from": 62211,
-      "uid": "a4765de460cc6485b1ca5b36222f41d5",
-      "css": "twitter-bird",
-      "orig_css": "twitter-bird",
-      "orig_code": 62211,
-      "src": "websymbols"
+      "code": 62220,
+      "uid": "bc50457410acf467b8b5721240768742",
+      "css": "facebook",
+      "orig_css": "facebook",
+      "orig_code": 62220,
+      "src": "entypo",
+      "from": 62220
     },
     {
       "search": [
@@ -75,12 +74,12 @@
         "user"
       ],
       "code": 128100,
-      "from": 128100,
-      "uid": "fd3128bf109153952b1b775ea574504b",
+      "uid": "bbd66ef66bb8fa9edde54d9a90b89150",
       "css": "user",
       "orig_css": "user",
       "orig_code": 128100,
-      "src": "websymbols"
+      "src": "entypo",
+      "from": 128100
     }
   ]
 }

@@ -2,11 +2,21 @@
 
 @font-face {
   font-family: 'fontello';
-  src: url("../font/fontello.eot");
-  src: url("../font/fontello.eot?#iefix") format('embedded-opentype'), url("../font/fontello.woff") format('woff'), url("../font/fontello.ttf") format('truetype'), url("../font/fontello.svg#fontello") format('svg');
+  src: url("../font/fontello.eot?81076313");
+  src: url("../font/fontello.eot?81076313#iefix") format('embedded-opentype'), url("../font/fontello.woff?81076313") format('woff'), url("../font/fontello.ttf?81076313") format('truetype'), url("../font/fontello.svg?81076313#fontello") format('svg');
   font-weight: normal;
   font-style: normal;
 }
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?81076313#fontello') format('svg');
+  }
+}
+*/
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
   font-family: 'fontello';
@@ -18,7 +28,7 @@
   width: 1em;
   margin-right: 0.2em;
   text-align: center;
-  opacity: 0.8;
+/* opacity .8 */
 /* fix buttons height, for twitter bootstrap */
   line-height: 1em;
 /* Animation center compensation - magrins should be symmetric */
@@ -32,7 +42,7 @@
 
 .icon-home:before { content: '\2302'; } /* '⌂' */
 .icon-archive:before { content: '\e738'; } /* '' */
-.icon-facebook:before { content: '\f300'; } /* '' */
-.icon-twitter-bird:before { content: '\f303'; } /* '' */
+.icon-twitter:before { content: '\f309'; } /* '' */
+.icon-facebook:before { content: '\f30c'; } /* '' */
 .icon-linkedin:before { content: '\f318'; } /* '' */
 .icon-user:before { content: '👤'; } /* '\1f464' */

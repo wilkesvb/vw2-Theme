@@ -3,7 +3,7 @@
 
 .icon-home:before { content: '\2302'; } /* '⌂' */
 .icon-archive:before { content: '\e738'; } /* '' */
-.icon-facebook:before { content: '\f300'; } /* '' */
-.icon-twitter-bird:before { content: '\f303'; } /* '' */
+.icon-twitter:before { content: '\f309'; } /* '' */
+.icon-facebook:before { content: '\f30c'; } /* '' */
 .icon-linkedin:before { content: '\f318'; } /* '' */
 .icon-user:before { content: '👤'; } /* '\1f464' */
